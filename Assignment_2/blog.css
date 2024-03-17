@@ -1,0 +1,235 @@
+.frame-child5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  mix-blend-mode: multiply;
+}
+.canvas-connections5 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.home5 {
+  height: 41.9px;
+  display: inline-block;
+}
+.art-therapy4,
+.blog5,
+.home5 {
+  position: relative;
+  z-index: 1;
+}
+.art-therapy4 {
+  flex: 1;
+  color: var(--color-whitesmoke);
+  white-space: nowrap;
+}
+.blog5 {
+  align-self: stretch;
+}
+.blog-text1 {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.donate4 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.login-text2 {
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.about-us5 {
+  width: 140px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.about-us5,
+.contact-us5,
+.login6 {
+  position: relative;
+  z-index: 1;
+}
+.contact-us5 {
+  width: 163px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.login6 {
+  align-self: stretch;
+}
+.title-rectangle {
+  width: 89px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.blog-frame2,
+.multi-frames,
+.text-frame,
+.title-rectangle,
+.vector-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.multi-frames {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.blog-frame2,
+.text-frame,
+.vector-parent1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-frame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-family: var(--font-itim);
+}
+.blog-frame2,
+.vector-parent1 {
+  flex-direction: row;
+}
+.vector-parent1 {
+  flex: 1;
+  padding: var(--padding-28xl) var(--padding-38xl) var(--padding-28xl)
+    var(--padding-37xl);
+  position: relative;
+  gap: var(--gap-39xl);
+}
+.blog-frame2 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.efficacy-of-art {
+  text-decoration: underline;
+}
+.efficacy-of-art-therapy-what1 {
+  color: inherit;
+}
+.efficacy-of-art-therapy-what,
+.this-report-called {
+  margin: 0;
+}
+.efficacy-of-art-container {
+  height: 228px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.proven-efficacy-text {
+  height: 666px;
+  width: 511px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -644.9px;
+  object-fit: cover;
+  z-index: 1;
+}
+.efficacy-info {
+  align-self: stretch;
+  height: 180.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+.blank-line3,
+.the-proven-efficacy,
+.the-report-provides {
+  margin: 0;
+}
+.blog4,
+.the-proven-efficacy-container {
+  position: relative;
+  box-sizing: border-box;
+}
+.the-proven-efficacy-container {
+  width: 935px;
+  height: 579px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+}
+.blog4 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  gap: 27px;
+  min-height: 1024px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .multi-frames {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .vector-parent1 {
+    gap: 58px 29px;
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .efficacy-of-art-container,
+  .the-proven-efficacy-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .efficacy-of-art-container,
+  .the-proven-efficacy-container {
+    font-size: var(--font-size-lgi);
+  }
+}

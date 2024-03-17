@@ -1,0 +1,185 @@
+.frame-inner {
+  height: 175.7px;
+  width: 211.2px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  mix-blend-mode: linear-burn;
+}
+.ellipse-wrapper {
+  width: 570.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.username-field {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro-200);
+  mix-blend-mode: multiply;
+}
+.username {
+  height: 46.6px;
+  width: 188.1px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent,
+.username-field-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.username-field-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 28.69999999999999px var(--padding-6xl-5) 28.700000000000017px;
+  position: relative;
+}
+.frame-parent {
+  width: 585px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 52.60000000000002px;
+  max-width: 100%;
+}
+.rectangle-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro-200);
+  mix-blend-mode: multiply;
+}
+.password {
+  height: 46.6px;
+  width: 179.6px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 33.5px var(--padding-6xl-5);
+  position: relative;
+}
+.button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.5px;
+  /* right: 194.2px; */
+  bottom: 0.5px;
+  left: -194px;
+  border-radius: 60px;
+  background-color: var(--color-gainsboro-200);
+  mix-blend-mode: multiply;
+}
+.login2 {
+  height: 34.7px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding-right: 100px;
+}
+.button-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-parent {
+  width: 195.6px;
+  justify-content: flex-start;
+  padding: 20.30000000000001px 63px 21.5px 64.3px;
+  box-sizing: border-box;
+  position: relative;
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-itim);
+}
+.frame-group,
+.login1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-group {
+  width: 585px;
+  align-items: flex-start;
+  gap: 52.599999999999994px;
+  max-width: 100%;
+  color: var(--color-black);
+}
+.login1 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-beige);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-121xl) var(--padding-xl) 242px;
+  box-sizing: border-box;
+  gap: 66.99999999999999px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: #222121;
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .password,
+  .username {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frame-parent {
+    gap: 26px 52.60000000000002px;
+  }
+  .frame-group {
+    gap: 26px 52.599999999999994px;
+  }
+  .login1 {
+    gap: 33px 66.99999999999999px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login2,
+  .password,
+  .username {
+    font-size: var(--font-size-lgi);
+  }
+  .login1 {
+    gap: 17px 66.99999999999999px;
+  }
+}

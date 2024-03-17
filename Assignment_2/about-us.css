@@ -1,0 +1,265 @@
+.rectangle-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  mix-blend-mode: multiply;
+}
+.canvas-connections2 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.home2 {
+  height: 41.9px;
+  display: inline-block;
+}
+.art-therapy1,
+.blog1,
+.home2 {
+  position: relative;
+  z-index: 1;
+}
+.art-therapy1 {
+  flex: 1;
+  color: var(--color-whitesmoke);
+  white-space: nowrap;
+}
+.blog1 {
+  align-self: stretch;
+}
+.blog-wrapper {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.donate1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.donate-wrapper {
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.about-us2 {
+  width: 140px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.about-us2,
+.contact-us1,
+.login3 {
+  position: relative;
+  z-index: 1;
+}
+.contact-us1 {
+  width: 163px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.login3 {
+  align-self: stretch;
+}
+.login-wrapper {
+  width: 89px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-wrapper1,
+.home-parent,
+.login-wrapper,
+.vector-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.frame-wrapper1,
+.vector-group {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-family: var(--font-itim);
+}
+.vector-group {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-38xl) var(--padding-28xl)
+    var(--padding-37xl);
+  position: sticky;
+  gap: var(--gap-39xl);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.about-the-art {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+.about-the-art-therapy-associat-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.the-art-therapy {
+  align-self: stretch;
+  height: 177px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.our-mission {
+  margin: 0;
+}
+.blank-line,
+.to-advance-art {
+  margin: 0;
+  font-size: var(--font-size-9xl);
+}
+.our-vision {
+  margin: 0;
+}
+.a-world-where {
+  margin: 0;
+  font-size: var(--font-size-9xl);
+}
+.blank-line1,
+.definition-of-art {
+  margin: 0;
+}
+.art-therapy-is {
+  margin: 0;
+  font-size: var(--font-size-9xl);
+}
+.our-mission-to-container {
+  height: 372px;
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-section,
+.our-mission-to-advance-art-the-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.our-mission-to-advance-art-the-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.frame-section {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+.about-us-inner,
+.about-us1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.about-us-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lg);
+  max-width: 100%;
+}
+.about-us1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 101px;
+  gap: 57px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .home-parent {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .vector-group {
+    gap: 58px 29px;
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .about-the-art {
+    font-size: var(--font-size-21xl);
+  }
+  .the-art-therapy {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-section {
+    gap: 20px 40px;
+  }
+  .about-us1 {
+    gap: 28px 57px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-the-art,
+  .the-art-therapy {
+    font-size: var(--font-size-5xl);
+  }
+  .our-mission-to-container {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,401 @@
+.frame-child4 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  mix-blend-mode: multiply;
+}
+.canvas-connections4 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.home4 {
+  height: 41.9px;
+  display: inline-block;
+}
+.art-therapy3,
+.blog3,
+.home4 {
+  position: relative;
+  z-index: 1;
+}
+.art-therapy3 {
+  flex: 1;
+  color: var(--color-whitesmoke);
+  white-space: nowrap;
+}
+.blog3 {
+  align-self: stretch;
+}
+.blog-text {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.donate3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.login-text1 {
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-whitesmoke);
+}
+.about-us4 {
+  width: 140px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.about-us4,
+.contact-us4,
+.login5 {
+  position: relative;
+  z-index: 1;
+}
+.contact-us4 {
+  width: 163px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.login5 {
+  align-self: stretch;
+}
+.home-art-about-contact-us-fram,
+.subject-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subject-text {
+  width: 89px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.home-art-about-contact-us-fram {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.group-header,
+.your-details-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.your-details-frame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-family: var(--font-itim);
+}
+.group-header {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-38xl) var(--padding-28xl)
+    var(--padding-37xl);
+  position: sticky;
+  gap: var(--gap-39xl);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.name-email-pair-child {
+  height: 74.6px;
+  width: 672px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  display: none;
+  max-width: 100%;
+}
+.your-name {
+  height: 42.1px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.name-email-pair,
+.name-email-pair-item {
+  background-color: var(--color-gainsboro-200);
+  max-width: 100%;
+}
+.name-email-pair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16.700000000000045px 11.099999999999907px 15.799999999999956px;
+  box-sizing: border-box;
+}
+.name-email-pair-item {
+  height: 74.6px;
+  width: 672px;
+  position: relative;
+  display: none;
+}
+.your-e-mail {
+  height: 42.1px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.name-email-pair1 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16.699999999999818px 11.099999999999907px 15.800000000000182px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.your-email-child {
+  height: 74.6px;
+  width: 672px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.subject {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.your-email {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16.600000000000136px 11.099999999999907px 15.900000000000093px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input-field-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 19.300000000000068px;
+  max-width: 100%;
+}
+.art-therapy-association1,
+.input-field-frame,
+.input-field-frame-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.art-therapy-association1 {
+  border: 0;
+  background-color: var(--color-gainsboro-200);
+  height: 234.3px;
+  width: auto;
+  outline: 0;
+  flex-direction: row;
+  padding: 0 11.099999999999907px;
+  box-sizing: border-box;
+  font-family: var(--font-itim);
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.input-field-frame-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 12.199999999999818px;
+  max-width: 100%;
+}
+.main-content-area-child {
+  height: 77.2px;
+  width: 219px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  display: none;
+}
+.send {
+  height: 42.1px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.contact-us-frame,
+.main-content-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.main-content-area {
+  cursor: pointer;
+  border: 0;
+  padding: 17.5px 66px 17.59999999999991px 66.60000000000014px;
+  background-color: var(--color-gainsboro-200);
+  justify-content: flex-start;
+}
+.main-content-area:hover {
+  background-color: var(--color-silver);
+}
+.contact-us-frame {
+  width: 618.6px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-rectangle {
+  width: 672px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50.90000000000009px;
+}
+.footer-rectangle,
+.frame-main,
+.send-text {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.send-text {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+.frame-main {
+  height: 800px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.section-background-rectangle {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  max-width: 100%;
+}
+.bottom-line-rectangle {
+  align-self: stretch;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyright-art,
+.terms-of-use-privacy {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.copyright-art-therapy-container {
+  width: 100%;
+  height: 92.9px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 50.1px;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.contact-us3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+  gap: 196px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .home-art-about-contact-us-fram {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .group-header {
+    gap: 58px 29px;
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .send,
+  .subject,
+  .your-e-mail,
+  .your-name {
+    font-size: var(--font-size-13xl);
+  }
+  .footer-rectangle {
+    gap: 25px 50.90000000000009px;
+  }
+  .copyright-art-therapy-container {
+    font-size: var(--font-size-13xl);
+  }
+  .contact-us3 {
+    gap: 98px 196px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .copyright-art-therapy-container,
+  .send,
+  .subject,
+  .your-e-mail,
+  .your-name {
+    font-size: var(--font-size-5xl);
+  }
+  .contact-us3 {
+    gap: 49px 196px;
+  }
+}
